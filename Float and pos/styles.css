@@ -1,0 +1,33 @@
+body{
+    max-width: 98%;
+    margin: 0 auto;
+    background-image: url('images/mainbg.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    image-resolution: 300dpi;
+}
+div.box{
+    background-color: rgba(83, 226, 226, 0.615);
+    border-radius: 8px;
+    margin: 3% 10%;
+    padding: 1em;
+    height: 5em;
+}
+div.box img.right{
+    float:right;
+}
+div.box img.left{
+    float:left;
+}
+.user{
+    height: 5em;
+    width: 5em;
+    object-fit: cover;
+    background-color: transparent;
+}
+@media screen and (max-width:767px){
+    div.box{
+        height: 7em;
+        overflow: scroll;
+    }
+}
